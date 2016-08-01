@@ -1,0 +1,14 @@
+PODS:
+  - UHBConnectivityManager (0.1.0)
+
+DEPENDENCIES:
+  - UHBConnectivityManager (from `../`)
+
+EXTERNAL SOURCES:
+  UHBConnectivityManager:
+    :path: ../
+
+SPEC CHECKSUMS:
+  UHBConnectivityManager: 204387fa916ca449ffb85997452adf6ce50a3b76
+
+COCOAPODS: 0.39.0
