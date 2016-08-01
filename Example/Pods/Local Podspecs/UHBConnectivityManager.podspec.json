@@ -1,9 +1,9 @@
 {
   "name": "UHBConnectivityManager",
   "version": "0.1.0",
-  "summary": "A short description of UHBConnectivityManager.",
+  "summary": "A Manager for reachability.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/UHBConnectivityManager",
+  "homepage": "https://github.com/umairhassanbaig/UHBConnectivityManager",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,7 +12,7 @@
     "Umair Hassan Baig": "umair.hassan@khaleef.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/UHBConnectivityManager.git",
+    "git": "https://github.com/umairhassanbaig/UHBConnectivityManager.git",
     "tag": "0.1.0"
   },
   "platforms": {

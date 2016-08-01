@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '6542407F9ECA4B86E065BC8E'
+               BlueprintIdentifier = '0A04E21D549E6AF26967D17C'
                BlueprintName = 'UHBConnectivityManager'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'UHBConnectivityManager.framework'>
+               BuildableName = 'libUHBConnectivityManager.a'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

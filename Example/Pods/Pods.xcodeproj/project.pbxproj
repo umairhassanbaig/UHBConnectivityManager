@@ -10,14 +10,52 @@
 	<string>46</string>
 	<key>objects</key>
 	<dict>
-		<key>0A83A9D3387899F38ADC3A955498CF5D</key>
+		<key>065826A42B185BE33D3608B833C2D6E1</key>
 		<dict>
-			<key>fileRef</key>
-			<string>3E4E89230EF59BC255123B67864ACF77</string>
+			<key>children</key>
+			<array>
+				<string>DB92C081B55956A830C79B5D95CF50C9</string>
+			</array>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Targets Support Files</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
-		<key>0B8FC16640623E0AF417D4D57E8D1615</key>
+		<key>0AD37BD4A3F5A06615672A739A73D464</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>9A29947B1781D9FA24A04F23DCB30583</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.3</string>
+				<key>MACH_O_TYPE</key>
+				<string>staticlib</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>YES</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PODS_ROOT</key>
+				<string>$(SRCROOT)</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>0C8E5943E09C9A23B83A6A782DE6EA95</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -26,20 +64,7 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>path</key>
-			<string>ReplaceMe.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0FF51A5F0B3AFE83C23658BDB8CF7614</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>UHBConnectivityManager-umbrella.h</string>
+			<string>ConnectivityManager.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -111,156 +136,77 @@
 			<key>name</key>
 			<string>Release</string>
 		</dict>
-		<key>12135724595E4077FB91B8376A4756C1</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>C7F7E11B882CEA0AC3DC4EE6C83BCE29</string>
-				<string>2094730EDFD1681A2CD7A2FFA67CB4C8</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1A3652AC7993F43688630E837613CAF0</key>
+		<key>1B85C46A4EA0CA1746E7146BFBB4ED18</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>C9024F3FD5D07907530B5834599F2680</string>
+			<string>60C9FAC417D15EC0E4CABF977981B79F</string>
 			<key>buildSettings</key>
 			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
 				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
 				<string>YES</string>
 				<key>GCC_PREFIX_HEADER</key>
 				<string>Target Support Files/UHBConnectivityManager/UHBConnectivityManager-prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/UHBConnectivityManager/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
 				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
 				<string>8.3</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/UHBConnectivityManager/UHBConnectivityManager.modulemap</string>
 				<key>MTL_ENABLE_DEBUG_INFO</key>
 				<string>NO</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PRIVATE_HEADERS_FOLDER_PATH</key>
+				<string></string>
 				<key>PRODUCT_NAME</key>
-				<string>UHBConnectivityManager</string>
+				<string>$(TARGET_NAME)</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
+				<string></string>
 				<key>SDKROOT</key>
 				<string>iphoneos</string>
 				<key>SKIP_INSTALL</key>
 				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
 			</dict>
 			<key>isa</key>
 			<string>XCBuildConfiguration</string>
 			<key>name</key>
 			<string>Release</string>
 		</dict>
-		<key>2094730EDFD1681A2CD7A2FFA67CB4C8</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>UHBConnectivityManager.framework</string>
-			<key>path</key>
-			<string>UHBConnectivityManager.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>290DCE3AFB93F3F32AAF8ED5FFBFFE04</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>9BA524E12763EFA5242CE540E8B6A6F4</string>
-			<key>buildPhases</key>
-			<array>
-				<string>57941D1736C6299F1F6B19198C72F2A4</string>
-				<string>354AA434FE72699D03227D2926A7A99F</string>
-				<string>4781E44DFE2964236FADBF626D2CA6EA</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>80D18E8378F16B89F8545254141FB742</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-UHBConnectivityManager_Tests</string>
-			<key>productName</key>
-			<string>Pods-UHBConnectivityManager_Tests</string>
-			<key>productReference</key>
-			<string>C7F7E11B882CEA0AC3DC4EE6C83BCE29</string>
-			<key>productType</key>
-			<string>com.apple.product-type.framework</string>
-		</dict>
-		<key>2BBDB21E03B91C29932B9C7B1F3F25A6</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>0B8FC16640623E0AF417D4D57E8D1615</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Classes</string>
-			<key>path</key>
-			<string>Classes</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2D1DED29C777A81B151CC82C7E3C46D8</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>6800AC70E2DFD9224402CD1A98B470DC</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Development Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2D71205F2BB144D6B09434813DC1BA77</key>
+		<key>1C3ABAE8711046FFFEE39C7D89D296AC</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
+			<string>text</string>
 			<key>path</key>
-			<string>Pods-UHBConnectivityManager_Tests-frameworks.sh</string>
+			<string>Pods-UHBConnectivityManager_Tests-acknowledgements.markdown</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>1DD0A00EEC69EFBB62E3584DF2598B0B</key>
+		<dict>
+			<key>fileRef</key>
+			<string>0C8E5943E09C9A23B83A6A782DE6EA95</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>277E5EBEF24C83BA53BE9F694A57FD5A</key>
+		<dict>
+			<key>fileRef</key>
+			<string>3E4E89230EF59BC255123B67864ACF77</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>2D1DED29C777A81B151CC82C7E3C46D8</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>EADCFEB458F4D88CDE314F7EA6A0EDFF</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Development Pods</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -278,33 +224,7 @@
 			<key>isa</key>
 			<string>XCConfigurationList</string>
 		</dict>
-		<key>354AA434FE72699D03227D2926A7A99F</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>0A83A9D3387899F38ADC3A955498CF5D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>39E9C0CEF80F21BD29639F53AA48437B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>Pods-UHBConnectivityManager_Tests-acknowledgements.markdown</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3B03AB2962631A9FB90FAC2AD849B89A</key>
+		<key>2DD3F94057F8F60B276B25C20D72630C</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -313,7 +233,20 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>path</key>
-			<string>Pods-UHBConnectivityManager_Tests-umbrella.h</string>
+			<string>UHBConnectivityManager-prefix.pch</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>38E3222D8CCA90EE748068C9995CE2F6</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Pods-UHBConnectivityManager_Tests-acknowledgements.plist</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -330,10 +263,65 @@
 			<key>sourceTree</key>
 			<string>DEVELOPER_DIR</string>
 		</dict>
-		<key>45A15BF9C764DD1C3733D54707141CF9</key>
+		<key>4228D2BFE0FB918CA822446533F4171A</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>EE2D60EC44AC80AA4DE3ACD2A5839AE9</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>UHBConnectivityManager</string>
+			<key>path</key>
+			<string>UHBConnectivityManager</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>4A2F06235B1108E045C7729B73F175FE</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.script.sh</string>
+			<key>path</key>
+			<string>Pods-UHBConnectivityManager_Tests-resources.sh</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>4AF67651F65F3A8204207E5D7E82774D</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>9F56E55142D9BAB306967F1C9E2AA2FF</string>
+				<string>F0FF0085F1198B7582CE36FA249D24BE</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Products</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>4AFE448D26DDD61A4D6444A6261480B6</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>ConnectivityManager.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>4BAFE25D3CE256F185D5C7C1C81AE119</key>
 		<dict>
 			<key>fileRef</key>
-			<string>0FF51A5F0B3AFE83C23658BDB8CF7614</string>
+			<string>E61E543B8942F7F550C3279FF684B4FC</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -344,45 +332,12 @@
 				</array>
 			</dict>
 		</dict>
-		<key>46067D71CDF76AA01FE790ACB80CF808</key>
+		<key>50DBBA57D6E50F43E08D4DBA6F1F28F7</key>
 		<dict>
-			<key>containerPortal</key>
-			<string>D41D8CD98F00B204E9800998ECF8427E</string>
+			<key>fileRef</key>
+			<string>DF293FFEF7F800BFBFF02DC3623B8C65</string>
 			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>A33ED6FEF9502F8AFA3F8D6F53BDD62F</string>
-			<key>remoteInfo</key>
-			<string>UHBConnectivityManager</string>
-		</dict>
-		<key>4781E44DFE2964236FADBF626D2CA6EA</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>EFB46F06DE0E1CFD666EE3EA4B24CC47</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>479A0B946480278BC4CB8893AE8339E0</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>5AAA034A5BAD29367D1EC6AB97FB60AF</string>
-				<string>1A3652AC7993F43688630E837613CAF0</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
+			<string>PBXBuildFile</string>
 		</dict>
 		<key>552D02D5BA751AC2E8790D2811D496CA</key>
 		<dict>
@@ -457,189 +412,75 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
-		<key>57941D1736C6299F1F6B19198C72F2A4</key>
+		<key>5ACDC0246D60C52EEE57FB9DA4C0A0CA</key>
 		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>E54E446A849F54CB9013374F5AE44D84</string>
-			</array>
+			<key>fileRef</key>
+			<string>4AFE448D26DDD61A4D6444A6261480B6</string>
 			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>5AAA034A5BAD29367D1EC6AB97FB60AF</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>C9024F3FD5D07907530B5834599F2680</string>
-			<key>buildSettings</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
 			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/UHBConnectivityManager/UHBConnectivityManager-prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/UHBConnectivityManager/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.3</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<key>ATTRIBUTES</key>
 				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
+					<string>Public</string>
 				</array>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/UHBConnectivityManager/UHBConnectivityManager.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>PRODUCT_NAME</key>
-				<string>UHBConnectivityManager</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
 			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
 		</dict>
-		<key>5E45A7C45453F00DF42369D39E99DB56</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>DB75EF270B19DE65C6F88358134D171B</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Pods-UHBConnectivityManager_Tests/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.3</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MACH_O_TYPE</key>
-				<string>staticlib</string>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/Pods-UHBConnectivityManager_Tests/Pods-UHBConnectivityManager_Tests.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_NAME</key>
-				<string>Pods_UHBConnectivityManager_Tests</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>6800AC70E2DFD9224402CD1A98B470DC</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>93550DB076DCA6351613D40043E17396</string>
-				<string>A874A2D3EAB4FEC5A232E5A0182FB9BB</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>UHBConnectivityManager</string>
-			<key>path</key>
-			<string>../..</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7230412E2F6C4B76F03FFB4D27BD05A1</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>UHBConnectivityManager.modulemap</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>757E626728CB75B7460D228591E4EBE7</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>9200B8BBC4D64FCDD122F4FEF553F675</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>7CD558A0EE2866C49F2D7B2AD4E61D72</key>
+		<key>60C9FAC417D15EC0E4CABF977981B79F</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
+			<string>text.xcconfig</string>
 			<key>path</key>
-			<string>Pods-UHBConnectivityManager_Tests-resources.sh</string>
+			<string>UHBConnectivityManager.xcconfig</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>69B74C98096302B5888185FB03491C29</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>E61E543B8942F7F550C3279FF684B4FC</string>
+				<string>984D7DFC1C8AE1C305EA98F358B93F4E</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Reachability</string>
+			<key>path</key>
+			<string>Reachability</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6E2F2FFE2190328F39DA4E7E5036FDE2</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods-UHBConnectivityManager_Tests.release.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7085C6436688C409F55F039CCF65FC8C</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7EE7B618746CDB408A8A6C38283D3483</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>74D641B6D7D0872BE410341242100CC8</key>
+		<dict>
+			<key>fileRef</key>
+			<string>984D7DFC1C8AE1C305EA98F358B93F4E</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
 		</dict>
 		<key>7DB346D0F39D3F0E887471402A8071AB</key>
 		<dict>
@@ -648,253 +489,28 @@
 				<string>BA6428E9F66FD5A23C0A2E06ED26CD2F</string>
 				<string>2D1DED29C777A81B151CC82C7E3C46D8</string>
 				<string>BC3CA7F9E30CC8F7E2DD044DD34432FC</string>
-				<string>12135724595E4077FB91B8376A4756C1</string>
-				<string>FC3B4F8C919F8A8EF801386F0BA7FF40</string>
+				<string>4AF67651F65F3A8204207E5D7E82774D</string>
+				<string>065826A42B185BE33D3608B833C2D6E1</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>80D18E8378F16B89F8545254141FB742</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>UHBConnectivityManager</string>
-			<key>target</key>
-			<string>A33ED6FEF9502F8AFA3F8D6F53BDD62F</string>
-			<key>targetProxy</key>
-			<string>46067D71CDF76AA01FE790ACB80CF808</string>
-		</dict>
-		<key>88888777AB099C8BAB4932A58142FF08</key>
-		<dict>
-			<key>fileRef</key>
-			<string>0B8FC16640623E0AF417D4D57E8D1615</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9196FDF466514032ABD51560B395306C</key>
+		<key>7DF192101ABCCF317468720CFD3F867C</key>
 		<dict>
 			<key>buildActionMask</key>
 			<string>2147483647</string>
 			<key>files</key>
 			<array>
-				<string>88888777AB099C8BAB4932A58142FF08</string>
-				<string>B63146C6D56E078337C29BA44DDBE337</string>
+				<string>D0A2F700F4C1E2CE1F59D3C3BF50C4F2</string>
 			</array>
 			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
+			<string>PBXFrameworksBuildPhase</string>
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>9200B8BBC4D64FCDD122F4FEF553F675</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3E4E89230EF59BC255123B67864ACF77</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>93550DB076DCA6351613D40043E17396</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>FEF32817B65B2D3A4EE148E673E58C9A</string>
-				<string>7230412E2F6C4B76F03FFB4D27BD05A1</string>
-				<string>C9024F3FD5D07907530B5834599F2680</string>
-				<string>A8C85914ED88A866C4477415E3315BE3</string>
-				<string>ED2EA055B5CBA201B8F76DE769696C8E</string>
-				<string>0FF51A5F0B3AFE83C23658BDB8CF7614</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>Example/Pods/Target Support Files/UHBConnectivityManager</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>97B2AF31FE9CDB6BCEF522383F71A821</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>DEE78C392FB254D56277228DC89D3A29</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Pods-UHBConnectivityManager_Tests/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.3</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MACH_O_TYPE</key>
-				<string>staticlib</string>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/Pods-UHBConnectivityManager_Tests/Pods-UHBConnectivityManager_Tests.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_NAME</key>
-				<string>Pods_UHBConnectivityManager_Tests</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>984A9DE0347AA47EC66E4729CF2B72DB</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>45A15BF9C764DD1C3733D54707141CF9</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>9BA524E12763EFA5242CE540E8B6A6F4</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>97B2AF31FE9CDB6BCEF522383F71A821</string>
-				<string>5E45A7C45453F00DF42369D39E99DB56</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>A07B5089EEDDB46DC18FF1DB06544626</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Pods-UHBConnectivityManager_Tests-acknowledgements.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A33ED6FEF9502F8AFA3F8D6F53BDD62F</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>479A0B946480278BC4CB8893AE8339E0</string>
-			<key>buildPhases</key>
-			<array>
-				<string>9196FDF466514032ABD51560B395306C</string>
-				<string>757E626728CB75B7460D228591E4EBE7</string>
-				<string>984A9DE0347AA47EC66E4729CF2B72DB</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>UHBConnectivityManager</string>
-			<key>productName</key>
-			<string>UHBConnectivityManager</string>
-			<key>productReference</key>
-			<string>2094730EDFD1681A2CD7A2FFA67CB4C8</string>
-			<key>productType</key>
-			<string>com.apple.product-type.framework</string>
-		</dict>
-		<key>A605AC2C2DA6AD21E745F69D3BD1DE9A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Pods-UHBConnectivityManager_Tests.modulemap</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A874A2D3EAB4FEC5A232E5A0182FB9BB</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>2BBDB21E03B91C29932B9C7B1F3F25A6</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>UHBConnectivityManager</string>
-			<key>path</key>
-			<string>UHBConnectivityManager</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A8C85914ED88A866C4477415E3315BE3</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>UHBConnectivityManager-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AD646F3BA6115A772BEFC1DD421B091D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B56039FEFD144138B0E1ED06D8577815</key>
+		<key>7EE7B618746CDB408A8A6C38283D3483</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -907,12 +523,182 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>B63146C6D56E078337C29BA44DDBE337</key>
+		<key>877C18D1D40DABCAACA9873C8B896B27</key>
 		<dict>
-			<key>fileRef</key>
-			<string>A8C85914ED88A866C4477415E3315BE3</string>
+			<key>buildConfigurations</key>
+			<array>
+				<string>A8E8FF1986614295EED259AD6F306D30</string>
+				<string>1B85C46A4EA0CA1746E7146BFBB4ED18</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>8D90331331251A18C41257F4FBCA3439</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>name</key>
+			<string>UHBConnectivityManager</string>
+			<key>target</key>
+			<string>F7907128B7934CF3BE008152D29A3917</string>
+			<key>targetProxy</key>
+			<string>D87BF9697961A83612FBB96A04DA4A2B</string>
+		</dict>
+		<key>97D078026574B269BBDF6E2AAF0A2045</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>60C9FAC417D15EC0E4CABF977981B79F</string>
+				<string>DF293FFEF7F800BFBFF02DC3623B8C65</string>
+				<string>2DD3F94057F8F60B276B25C20D72630C</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Support Files</string>
+			<key>path</key>
+			<string>Example/Pods/Target Support Files/UHBConnectivityManager</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>984D7DFC1C8AE1C305EA98F358B93F4E</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>Reachability.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9A29947B1781D9FA24A04F23DCB30583</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods-UHBConnectivityManager_Tests.debug.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9F56E55142D9BAB306967F1C9E2AA2FF</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>libPods-UHBConnectivityManager_Tests.a</string>
+			<key>path</key>
+			<string>libPods-UHBConnectivityManager_Tests.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>A247A00BFFCF32DFCB2DDA035C36C274</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.script.sh</string>
+			<key>path</key>
+			<string>Pods-UHBConnectivityManager_Tests-frameworks.sh</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A37C83C1F8913AE62E3FA4F9E438D021</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>6E2F2FFE2190328F39DA4E7E5036FDE2</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.3</string>
+				<key>MACH_O_TYPE</key>
+				<string>staticlib</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>NO</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PODS_ROOT</key>
+				<string>$(SRCROOT)</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>A527A664B23EC4BBA09A4157F9CF0B6D</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>1DD0A00EEC69EFBB62E3584DF2598B0B</string>
+				<string>74D641B6D7D0872BE410341242100CC8</string>
+				<string>50DBBA57D6E50F43E08D4DBA6F1F28F7</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>A8E8FF1986614295EED259AD6F306D30</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>60C9FAC417D15EC0E4CABF977981B79F</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/UHBConnectivityManager/UHBConnectivityManager-prefix.pch</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.3</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>YES</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PRIVATE_HEADERS_FOLDER_PATH</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
+				<string></string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
 		</dict>
 		<key>BA6428E9F66FD5A23C0A2E06ED26CD2F</key>
 		<dict>
@@ -957,33 +743,39 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>C7F7E11B882CEA0AC3DC4EE6C83BCE29</key>
+		<key>C0D006ADD3644136A062986AB1128172</key>
 		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>7085C6436688C409F55F039CCF65FC8C</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>Pods_UHBConnectivityManager_Tests.framework</string>
-			<key>path</key>
-			<string>Pods_UHBConnectivityManager_Tests.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
-		<key>C9024F3FD5D07907530B5834599F2680</key>
+		<key>C9852E24C6CE59B426E43414109CBD65</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>5ACDC0246D60C52EEE57FB9DA4C0A0CA</string>
+				<string>4BAFE25D3CE256F185D5C7C1C81AE119</string>
+			</array>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>UHBConnectivityManager.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>PBXHeadersBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>D0A2F700F4C1E2CE1F59D3C3BF50C4F2</key>
+		<dict>
+			<key>fileRef</key>
+			<string>3E4E89230EF59BC255123B67864ACF77</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
 		</dict>
 		<key>D41D8CD98F00B204E9800998ECF8427E</key>
 		<dict>
@@ -1011,7 +803,7 @@
 			<key>mainGroup</key>
 			<string>7DB346D0F39D3F0E887471402A8071AB</string>
 			<key>productRefGroup</key>
-			<string>12135724595E4077FB91B8376A4756C1</string>
+			<string>4AF67651F65F3A8204207E5D7E82774D</string>
 			<key>projectDirPath</key>
 			<string></string>
 			<key>projectReferences</key>
@@ -1020,50 +812,34 @@
 			<string></string>
 			<key>targets</key>
 			<array>
-				<string>290DCE3AFB93F3F32AAF8ED5FFBFFE04</string>
-				<string>A33ED6FEF9502F8AFA3F8D6F53BDD62F</string>
+				<string>EE63AB277C2296476FF2EFC677F32440</string>
+				<string>F7907128B7934CF3BE008152D29A3917</string>
 			</array>
 		</dict>
-		<key>DB75EF270B19DE65C6F88358134D171B</key>
+		<key>D87BF9697961A83612FBB96A04DA4A2B</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>containerPortal</key>
+			<string>D41D8CD98F00B204E9800998ECF8427E</string>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-UHBConnectivityManager_Tests.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DEE78C392FB254D56277228DC89D3A29</key>
-		<dict>
-			<key>includeInIndex</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
 			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-UHBConnectivityManager_Tests.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<key>remoteGlobalIDString</key>
+			<string>F7907128B7934CF3BE008152D29A3917</string>
+			<key>remoteInfo</key>
+			<string>UHBConnectivityManager</string>
 		</dict>
-		<key>E009B531C6814F809789E110224D4130</key>
+		<key>DB92C081B55956A830C79B5D95CF50C9</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>AD646F3BA6115A772BEFC1DD421B091D</string>
-				<string>A605AC2C2DA6AD21E745F69D3BD1DE9A</string>
-				<string>39E9C0CEF80F21BD29639F53AA48437B</string>
-				<string>A07B5089EEDDB46DC18FF1DB06544626</string>
-				<string>B56039FEFD144138B0E1ED06D8577815</string>
-				<string>2D71205F2BB144D6B09434813DC1BA77</string>
-				<string>7CD558A0EE2866C49F2D7B2AD4E61D72</string>
-				<string>3B03AB2962631A9FB90FAC2AD849B89A</string>
-				<string>DEE78C392FB254D56277228DC89D3A29</string>
-				<string>DB75EF270B19DE65C6F88358134D171B</string>
+				<string>1C3ABAE8711046FFFEE39C7D89D296AC</string>
+				<string>38E3222D8CCA90EE748068C9995CE2F6</string>
+				<string>7EE7B618746CDB408A8A6C38283D3483</string>
+				<string>A247A00BFFCF32DFCB2DDA035C36C274</string>
+				<string>4A2F06235B1108E045C7729B73F175FE</string>
+				<string>9A29947B1781D9FA24A04F23DCB30583</string>
+				<string>6E2F2FFE2190328F39DA4E7E5036FDE2</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
@@ -1074,14 +850,33 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>E54E446A849F54CB9013374F5AE44D84</key>
+		<key>DF293FFEF7F800BFBFF02DC3623B8C65</key>
 		<dict>
-			<key>fileRef</key>
-			<string>B56039FEFD144138B0E1ED06D8577815</string>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>UHBConnectivityManager-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
-		<key>ED2EA055B5CBA201B8F76DE769696C8E</key>
+		<key>DF389780E5B06B4552FE447E3F84B199</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>277E5EBEF24C83BA53BE9F694A57FD5A</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>E61E543B8942F7F550C3279FF684B4FC</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1090,49 +885,122 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>path</key>
-			<string>UHBConnectivityManager-prefix.pch</string>
+			<string>Reachability.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>EFB46F06DE0E1CFD666EE3EA4B24CC47</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3B03AB2962631A9FB90FAC2AD849B89A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>FC3B4F8C919F8A8EF801386F0BA7FF40</key>
+		<key>EADCFEB458F4D88CDE314F7EA6A0EDFF</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>E009B531C6814F809789E110224D4130</string>
+				<string>97D078026574B269BBDF6E2AAF0A2045</string>
+				<string>4228D2BFE0FB918CA822446533F4171A</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
 			<key>name</key>
-			<string>Targets Support Files</string>
+			<string>UHBConnectivityManager</string>
+			<key>path</key>
+			<string>../..</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>FEF32817B65B2D3A4EE148E673E58C9A</key>
+		<key>EE2D60EC44AC80AA4DE3ACD2A5839AE9</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>children</key>
+			<array>
+				<string>4AFE448D26DDD61A4D6444A6261480B6</string>
+				<string>0C8E5943E09C9A23B83A6A782DE6EA95</string>
+				<string>69B74C98096302B5888185FB03491C29</string>
+			</array>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Classes</string>
 			<key>path</key>
-			<string>Info.plist</string>
+			<string>Classes</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>EE63AB277C2296476FF2EFC677F32440</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>F1EAB12423207E22875CB74C75ACBE8F</string>
+			<key>buildPhases</key>
+			<array>
+				<string>C0D006ADD3644136A062986AB1128172</string>
+				<string>DF389780E5B06B4552FE447E3F84B199</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>8D90331331251A18C41257F4FBCA3439</string>
+			</array>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>Pods-UHBConnectivityManager_Tests</string>
+			<key>productName</key>
+			<string>Pods-UHBConnectivityManager_Tests</string>
+			<key>productReference</key>
+			<string>9F56E55142D9BAB306967F1C9E2AA2FF</string>
+			<key>productType</key>
+			<string>com.apple.product-type.library.static</string>
+		</dict>
+		<key>F0FF0085F1198B7582CE36FA249D24BE</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>libUHBConnectivityManager.a</string>
+			<key>path</key>
+			<string>libUHBConnectivityManager.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>F1EAB12423207E22875CB74C75ACBE8F</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>0AD37BD4A3F5A06615672A739A73D464</string>
+				<string>A37C83C1F8913AE62E3FA4F9E438D021</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>F7907128B7934CF3BE008152D29A3917</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>877C18D1D40DABCAACA9873C8B896B27</string>
+			<key>buildPhases</key>
+			<array>
+				<string>A527A664B23EC4BBA09A4157F9CF0B6D</string>
+				<string>7DF192101ABCCF317468720CFD3F867C</string>
+				<string>C9852E24C6CE59B426E43414109CBD65</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>UHBConnectivityManager</string>
+			<key>productName</key>
+			<string>UHBConnectivityManager</string>
+			<key>productReference</key>
+			<string>F0FF0085F1198B7582CE36FA249D24BE</string>
+			<key>productType</key>
+			<string>com.apple.product-type.library.static</string>
 		</dict>
 	</dict>
 	<key>rootObject</key>

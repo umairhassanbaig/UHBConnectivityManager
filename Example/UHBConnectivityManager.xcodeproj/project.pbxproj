@@ -77,13 +77,6 @@ fi
 			<key>showEnvVarsInLog</key>
 			<string>0</string>
 		</dict>
-		<key>4D3473B56B2536EC0CD7E506</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F590BA116D2D165AF94BB376</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
 		<key>6003F581195388D10070C39A</key>
 		<dict>
 			<key>children</key>
@@ -183,7 +176,7 @@ fi
 				<string>6003F58F195388D20070C39A</string>
 				<string>6003F591195388D20070C39A</string>
 				<string>6003F5AF195388D20070C39A</string>
-				<string>F590BA116D2D165AF94BB376</string>
+				<string>BAC8B1E5941B71D8AA3BBAF6</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
@@ -253,7 +246,7 @@ fi
 				<string>6003F5B0195388D20070C39A</string>
 				<string>6003F5B2195388D20070C39A</string>
 				<string>6003F5B1195388D20070C39A</string>
-				<string>4D3473B56B2536EC0CD7E506</string>
+				<string>9DDFA8B546F16192855CC849</string>
 			</array>
 			<key>isa</key>
 			<string>PBXFrameworksBuildPhase</string>
@@ -725,6 +718,13 @@ fi
 			<key>showEnvVarsInLog</key>
 			<string>0</string>
 		</dict>
+		<key>9DDFA8B546F16192855CC849</key>
+		<dict>
+			<key>fileRef</key>
+			<string>BAC8B1E5941B71D8AA3BBAF6</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
 		<key>ACC06290B84270AF6B46F2D6</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -737,6 +737,19 @@ fi
 			<string>../README.md</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BAC8B1E5941B71D8AA3BBAF6</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>libPods-UHBConnectivityManager_Tests.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
 		<key>C8BE0C2F1896AA572B76624A</key>
 		<dict>
@@ -780,19 +793,6 @@ fi
 			<string>Pods/Target Support Files/Pods-UHBConnectivityManager_Tests/Pods-UHBConnectivityManager_Tests.release.xcconfig</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F590BA116D2D165AF94BB376</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Pods_UHBConnectivityManager_Tests.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
 	</dict>
 	<key>rootObject</key>

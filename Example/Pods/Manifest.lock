@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  UHBConnectivityManager: 204387fa916ca449ffb85997452adf6ce50a3b76
+  UHBConnectivityManager: 7377029607789b37e6f4cbc2b4156139740ab7e4
 
 COCOAPODS: 0.39.0

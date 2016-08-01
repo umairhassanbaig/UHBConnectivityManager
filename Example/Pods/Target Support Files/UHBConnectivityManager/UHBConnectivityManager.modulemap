@@ -1,6 +1,0 @@
-framework module UHBConnectivityManager {
-  umbrella header "UHBConnectivityManager-umbrella.h"
-
-  export *
-  module * { export * }
-}
