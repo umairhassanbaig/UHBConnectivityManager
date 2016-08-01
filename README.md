@@ -1,3 +1,4 @@
+
 # UHBConnectivityManager
 
 [![CI Status](http://img.shields.io/travis/Umair Hassan Baig/UHBConnectivityManager.svg?style=flat)](https://travis-ci.org/Umair Hassan Baig/UHBConnectivityManager)
@@ -27,3 +28,6 @@ Umair Hassan Baig, umair.hassan@khaleef.com
 ## License
 
 UHBConnectivityManager is available under the MIT license. See the LICENSE file for more info.
+
+# UHBConnectivityManager
+
