@@ -23,7 +23,7 @@ pod "UHBConnectivityManager"
 
 ## Author
 
-Umair Hassan Baig, umair.hassan@khaleef.com
+Umair Hassan Baig, umairhassanbaig@gmail.com
 
 ## License
 
