@@ -17,7 +17,9 @@ typedef enum
 
 typedef void (^ConnectivityManagerCallback)(ConnectivityManagerConnectionStatus status);
 
-@interface ConnectivityManager : NSObject
+
+@interface UHBConnectivityManager : NSObject
+
 +(instancetype)shared;
 -(ConnectivityManagerConnectionStatus)currentStaus;
 -(BOOL)isConnected;

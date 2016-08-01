@@ -6,18 +6,18 @@
 //  Copyright (c) 2015 OS_Umair. All rights reserved.
 //
 
-#import "ConnectivityManager.h"
+#import "UHBConnectivityManager.h"
 #import "Reachability.h"
 
-static ConnectivityManager * sharedInstance;
+static UHBConnectivityManager * sharedInstance;
 
 
-@interface ConnectivityManager ()
+@interface UHBConnectivityManager ()
 @property (nonatomic, strong) NSMutableDictionary * callbacksTrace;
 @property (nonatomic, retain) Reachability * reachability;
 @end
 
-@implementation ConnectivityManager
+@implementation UHBConnectivityManager
 
 +(instancetype)shared
 {
