@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'UHBConnectivityManager'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'UHBConnectivity manager is an block oriented objective-c wrapper on Reachability. You can observe Internet Connectivity changes by blocks'
 
 # This description is used to generate tags and improve search results.
