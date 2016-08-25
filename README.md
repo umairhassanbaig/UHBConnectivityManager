@@ -8,9 +8,17 @@
 
 ## Example
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+```objective-c
+[[UHBConnectivityManager shared] registerCallBack:^(ConnectivityManagerConnectionStatus status) {
+if (status == ConnectivityManagerConnectionStatusConnected) {
+
+}
+} forIdentifier:self.memoryAddress];
+```
 
 ## Requirements
+
+iOS Version 7.0 or greater
 
 ## Installation
 
