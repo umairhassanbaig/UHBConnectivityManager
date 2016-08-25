@@ -23,14 +23,31 @@ static UHBConnectivityManager * sharedInstance;
 {
     if (!sharedInstance) {
         sharedInstance = [[self alloc] init];
-        sharedInstance.callbacksTrace = [NSMutableDictionary dictionary];
-        sharedInstance.reachability = [Reachability reachabilityForInternetConnection];
-        [[NSNotificationCenter defaultCenter] addObserver:sharedInstance selector:@selector(reachabilityNotifictaionRecieved:) name:kReachabilityChangedNotification object:sharedInstance.reachability];
-        [sharedInstance.reachability startNotifier];
-
     }
     
     return sharedInstance;
+}
+
+
+- (instancetype)init
+{
+    self = [super init];
+    if (self) {
+        self.callbacksTrace = [NSMutableDictionary dictionary];
+        self.reachability = [Reachability reachabilityForInternetConnection];
+        [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(reachabilityNotifictaionRecieved:) name:kReachabilityChangedNotification object:self.reachability];
+        [self.reachability startNotifier];
+        
+    }
+    return  self;
+}
+
+-(void)dealloc
+{
+    [self.callbacksTrace removeAllObjects];
+    [[NSNotificationCenter defaultCenter] removeObserver:self];
+    [self.reachability stopNotifier];
+    self.reachability = nil;
 }
 
 -(void)reachabilityNotifictaionRecieved:(NSNotification *)notif
@@ -88,4 +105,17 @@ static UHBConnectivityManager * sharedInstance;
 {
     return self.reachability.currentReachabilityStatus == ReachableViaWWAN;
 }
+
+
 @end
+
+
+@implementation NSObject (UHBAdditions)
+
+
+-(NSString *)memoryAddress
+{
+    return [NSString stringWithFormat:@"%p",  self];
+}
+@end
+
