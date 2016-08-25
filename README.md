@@ -15,7 +15,7 @@ You can register any object with a Unique Identifier
 ```objective-c
 [[UHBConnectivityManager shared] registerCallBack:^(ConnectivityManagerConnectionStatus status) {
       if (status == ConnectivityManagerConnectionStatusConnected) {
-          // Update data on connection is restore
+          // Device connected to internet: You may update your data here
       }
       else
       {
