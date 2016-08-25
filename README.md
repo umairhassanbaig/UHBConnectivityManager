@@ -8,14 +8,24 @@
 
 ## Example
 
+You can register any object with a Unique Identifier 
+
 ```objective-c
 [[UHBConnectivityManager shared] registerCallBack:^(ConnectivityManagerConnectionStatus status) {
-if (status == ConnectivityManagerConnectionStatusConnected) {
-
-}
+      if (status == ConnectivityManagerConnectionStatusConnected) {
+          // Update data on connection is restore
+      }
+      else
+      {
+          // Show alert 
+      }
 } forIdentifier:self.memoryAddress];
 ```
 
+You may unregister the callback in Dealloc method or anywhere you want.
+```objective-c
+    [[UHBConnectivityManager shared] removeCallBackForIdentitfier:self.memoryAddress];
+```
 ## Requirements
 
 iOS Version 7.0 or greater
@@ -37,5 +47,5 @@ Umair Hassan Baig, umairhassanbaig@gmail.com
 
 UHBConnectivityManager is available under the MIT license. See the LICENSE file for more info.
 
-# UHBConnectivityManager
+
 
