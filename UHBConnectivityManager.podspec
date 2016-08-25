@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'UHBConnectivityManager'
   s.version          = '0.1.1'
-  s.summary          = 'UHBConnectivity manager is an block oriented objective-c wrapper on Reachability. You can observe network changes by blocks'
+  s.summary          = 'UHBConnectivity manager is an block oriented objective-c wrapper on Reachability.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
