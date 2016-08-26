@@ -1,7 +1,6 @@
 
 # UHBConnectivityManager
 
-[![CI Status](http://img.shields.io/travis/Umair Hassan Baig/UHBConnectivityManager.svg?style=flat)](https://travis-ci.org/Umair Hassan Baig/UHBConnectivityManager)
 [![Version](https://img.shields.io/cocoapods/v/UHBConnectivityManager.svg?style=flat)](http://cocoapods.org/pods/UHBConnectivityManager)
 [![License](https://img.shields.io/cocoapods/l/UHBConnectivityManager.svg?style=flat)](http://cocoapods.org/pods/UHBConnectivityManager)
 [![Platform](https://img.shields.io/cocoapods/p/UHBConnectivityManager.svg?style=flat)](http://cocoapods.org/pods/UHBConnectivityManager)
